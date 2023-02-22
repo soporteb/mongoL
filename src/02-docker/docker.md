@@ -1,10 +1,10 @@
-# Up mongodb
+# Up mongodb - Levantar la app
 
 ```sh
 docker-compose up -d mongodb
 ```
 
-# Check
+# Check - revisar
 
 ```sh
 docker-compose ps
