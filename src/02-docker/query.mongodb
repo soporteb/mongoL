@@ -1,3 +1,5 @@
 use("enei_store")
 
 db.productos.find()
+
+db.servicios.find()

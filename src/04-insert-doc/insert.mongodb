@@ -1,0 +1,11 @@
+use("enei_store")
+
+db.productos.insertOne({
+    name: "producto 1",
+    price: 1000
+})
+
+db.productos.insertOne({
+    name: "producto 2",
+    price: 3000
+})

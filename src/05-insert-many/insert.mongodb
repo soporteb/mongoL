@@ -1,0 +1,32 @@
+use("enei_store")
+
+db.productos.drop()
+
+db.productos.insertMany([
+    {
+        _id: 100,
+        name : "product 01",
+        price: 2500
+    },
+    {
+        _id: 101,
+        name : "product 02",
+        price: 2700
+    },
+    {
+        _id: 102,
+        name : "product 03",
+        price: 2900
+    },
+    {
+        _id: 103,
+        name : "product 03",
+        price: 2900
+    }
+
+],
+    //esta instruccion es para insertar TODOS los q estan bien y obviar lo malo
+    //{ordered: false}
+)
+
+db.productos.find()

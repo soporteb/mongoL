@@ -1,7 +1,7 @@
 # Up mongodb - Levantar la app
 
 ```sh
-docker-compose up -d mongodb
+docker-compose up -d my-dbName
 ```
 
 # Check - revisar
